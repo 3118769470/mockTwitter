@@ -1,6 +1,7 @@
 import { Router } from "express";
 const routes = Router();
 
+
 //twitts CRUD
 //create twitt
 routes.post('/', (req, res) => {
