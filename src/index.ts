@@ -3,6 +3,7 @@ import userRoutes from './routes/userRoutes';
 import twittRoutes from './routes/userRoutes';
 const app = express();
 
+app.use(express.json());
 app.get('/', (req, res) => {
     res.send('hello world');
 });
